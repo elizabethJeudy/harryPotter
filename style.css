@@ -1,12 +1,11 @@
 body {
-	background-image: url("images/marauders-map-gif-7.gif");
-	background-size: cover;
-	background-repeat: no-repeat;
 	font-family: "Crimson Text", serif;
 }
 .navbar-darkblue {
 	background-color: #0d141e;
 }
 .navbar-brand {
-	color: #fff;
+	color: #fcf5e7;
+	display: flex;
+	justify-content: center;
 }
