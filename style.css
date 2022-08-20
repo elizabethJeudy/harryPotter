@@ -1,11 +1,28 @@
+:root {
+	--primary-color: #ebe2d0;
+	--secondary-color: #0d141e;
+	--accent-color: #aa8855;
+}
+
 body {
 	font-family: "Crimson Text", serif;
 }
-.navbar-darkblue {
-	background-color: #0d141e;
+.navbar-beige {
+	background-color: var(--primary-color);
 }
-.navbar-brand {
-	color: #fcf5e7;
-	display: flex;
-	justify-content: center;
+.navbar-darkblue {
+	background-color: var(--secondary-color);
+	color: var(--secondary-color);
+}
+.centered {
+	box-sizing: content-box;
+	height: 400px;
+	width: 700px;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
