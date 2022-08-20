@@ -2,6 +2,7 @@ body {
 	background-image: url("images/marauders-map-gif-7.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
+	font-family: "Crimson Text", serif;
 }
 .navbar-brown {
 	background-color: #614124;
