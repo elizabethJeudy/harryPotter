@@ -4,6 +4,9 @@ body {
 	background-repeat: no-repeat;
 	font-family: "Crimson Text", serif;
 }
-.navbar-brown {
-	background-color: #614124;
+.navbar-darkblue {
+	background-color: #0d141e;
+}
+.navbar-brand {
+	color: #fff;
 }
