@@ -9,18 +9,31 @@
 body {
 	font-family: "Crimson Text", serif;
 }
+
+h2 {
+	color: var(--secondary-accent-color);
+	font-size: 50px;
+}
+
 .navbar-beige {
 	background-color: var(--primary-color);
 }
+
 .navbar-darkblue {
 	background-color: var(--secondary-color);
 	color: var(--secondary-color);
 }
+
+.bgLetters {
+	height: 800px;
+	width: 1450px;
+}
 .centered {
+	border-top: 10px solid #aa8855;
 	padding-top: 20px;
 	box-sizing: content-box;
 	height: 400px;
-	width: 700px;
+	width: 750px;
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
 	position: absolute;
