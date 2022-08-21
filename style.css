@@ -3,7 +3,6 @@
 	--secondary-color: #0d141e;
 	--primary-accent-color: #aa8855;
 	--secondary-accent-color: #4a2a10;
-	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -29,7 +28,7 @@ h2 {
 	width: 1450px;
 }
 .centered {
-	border-top: 10px solid #aa8855;
+	border-top: 15px solid #aa8855;
 	padding-top: 20px;
 	box-sizing: content-box;
 	height: 400px;
@@ -41,6 +40,7 @@ h2 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	box-shadow: 0 5px 10px #6a0607;
 }
 
 .welcomeButton {
@@ -49,7 +49,7 @@ h2 {
 	padding: 10px 60px;
 	font-size: 20px;
 	border-radius: 50px;
-	box-shadow: var(--box-shadow);
+	box-shadow: 0 5px 10px #0d141e;
 }
 
 .welcomeButton:hover {
