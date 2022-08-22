@@ -9,6 +9,7 @@ body {
 	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: "Crimson Text", serif;
 }
 #navigationLinks {
 	display: flex;
