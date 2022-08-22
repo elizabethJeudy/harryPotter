@@ -4,18 +4,8 @@ body {
 	background-size: cover;
 }
 
-.banner {
-	position: relative;
-	top: 0;
-	left: 0;
-}
-.bgSmoke {
-	position: relative;
-	top: 0;
-	left: 0;
-}
 .bgLogo {
-	position: absolute;
-	top: 30px;
-	left: 650px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
