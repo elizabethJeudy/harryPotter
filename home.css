@@ -1,3 +1,9 @@
+body {
+	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .banner {
 	position: relative;
 	top: 0;
