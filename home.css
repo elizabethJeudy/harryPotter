@@ -45,7 +45,12 @@ p {
 	text-decoration: underline;
 }
 
+.divider {
+	transform: rotate(180deg);
+}
+
 #characters {
 	display: flex;
-	padding: 15px;
+	padding-top: 30px;
+	padding-left: 200px;
 }
