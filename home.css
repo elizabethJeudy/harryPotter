@@ -12,6 +12,16 @@ body {
 	font-family: "Crimson Text", serif;
 }
 
+h2 {
+	color: var(--primary-color);
+	text-align: center;
+}
+
+p {
+	color: var(--primary-accent-color);
+	text-align: center;
+}
+
 .bgLogo {
 	display: flex;
 	justify-content: center;
@@ -37,6 +47,5 @@ body {
 
 #characters {
 	display: flex;
-	justify-content: flex-start;
 	padding: 15px;
 }
