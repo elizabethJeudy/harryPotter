@@ -11,6 +11,13 @@ body {
 	background-size: cover;
 	font-family: "Crimson Text", serif;
 }
+
+.bgLogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
 #navigationLinks {
 	display: flex;
 	justify-content: center;
@@ -28,8 +35,8 @@ body {
 	text-decoration: underline;
 }
 
-.bgLogo {
+#characters {
 	display: flex;
-	justify-content: center;
-	margin-top: 20px;
+	justify-content: flex-start;
+	padding: 15px;
 }
