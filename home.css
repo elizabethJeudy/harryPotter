@@ -58,3 +58,8 @@ p {
 #characters img {
 	height: 200px;
 }
+
+#characters a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
