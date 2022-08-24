@@ -54,3 +54,7 @@ p {
 	padding-top: 30px;
 	padding-left: 200px;
 }
+
+#characters img {
+	height: 200px;
+}
