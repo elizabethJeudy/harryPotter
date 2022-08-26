@@ -17,6 +17,13 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-size: 50px;
+	color: #aa8855;
+	text-align: center;
+	margin-top: 40px;
+}
+
 p {
 	color: var(--primary-accent-color);
 	text-align: center;
