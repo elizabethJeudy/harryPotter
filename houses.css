@@ -13,10 +13,19 @@ body {
 }
 
 h2 {
+	color: var(--primary-color);
+	text-align: center;
+}
+
+h3 {
 	font-size: 50px;
-	color: #aa8855;
+	color: var(--primary-accent-color);
 	text-align: center;
 	margin-top: 40px;
+}
+
+.divider {
+	transform: rotate(180deg);
 }
 
 #navigationLinks {
@@ -43,10 +52,6 @@ h2 {
 }
 
 #bgHouses .img-fluid {
-	padding: 20px;
-	margin-top: 20px;
-}
-
-#bgHouses .crest {
-	padding-left: 50px;
+	width: 300px;
+	height: 460px;
 }
