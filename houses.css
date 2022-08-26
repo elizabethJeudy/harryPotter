@@ -11,6 +11,14 @@ body {
 	background-size: cover;
 	font-family: "Crimson Text", serif;
 }
+
+h1 {
+	font-size: 100px;
+	color: #aa8855;
+	text-align: center;
+	margin-top: 40px;
+}
+
 #navigationLinks {
 	display: flex;
 	justify-content: center;
@@ -34,9 +42,11 @@ body {
 	margin-top: 20px;
 }
 
-h1 {
-	font-size: 100px;
-	color: #aa8855;
-	text-align: center;
-	margin-top: 40px;
+#bgHouses img {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#bgHouses .crest {
+	padding-left: 50px;
 }
