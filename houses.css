@@ -62,4 +62,7 @@ h3 {
 	.hogwartsCrest {
 		display: none;
 	}
+	h3 {
+		font-size: 30px;
+	}
 }
