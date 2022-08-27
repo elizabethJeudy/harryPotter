@@ -70,3 +70,16 @@ p {
 	color: var(--primary-color);
 	text-decoration: none;
 }
+
+@media (max-width: 786px) {
+	#characters img {
+		display: block;
+		margin: 0 auto;
+	}
+	h2 {
+		margin-top: 10px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+}
