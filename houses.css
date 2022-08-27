@@ -52,6 +52,14 @@ h3 {
 }
 
 #bgHouses .img-fluid {
+	display: block;
+	margin: 0 auto;
 	width: 300px;
 	height: 460px;
+}
+
+@media (max-width: 768px) {
+	.hogwartsCrest {
+		display: none;
+	}
 }
