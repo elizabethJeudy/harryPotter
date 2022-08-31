@@ -38,9 +38,35 @@ body {
 	transform: rotate(180deg);
 }
 
-h1 {
-	font-size: 100px;
-	color: #aa8855;
+h2 {
+	padding-top: 20px;
+	color: var(--primary-color);
 	text-align: center;
-	margin-top: 40px;
+}
+
+h3 {
+	color: var(--primary-accent-color);
+	text-align: center;
+}
+
+img {
+	margin-bottom: 30px;
+	padding-left: 30px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.quizButton {
+	background: var(--secondary-accent-color);
+	padding: 10px;
+	margin-top: 300px;
+	border-radius: 10px;
+	opacity: 0.9;
+	color: var(--primary-color);
+	cursor: pointer;
 }
