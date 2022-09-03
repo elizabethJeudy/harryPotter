@@ -6,6 +6,10 @@
 }
 
 body {
+	background-image: url("images/personalised-hogwarts-acceptance-letter_2048x_optimized_2048x_60634f1a-abf2-4e05-b308-8c38e5fad016_2048x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 910px;
 	font-family: "Crimson Text", serif;
 }
 
@@ -23,10 +27,6 @@ h2 {
 	color: var(--secondary-color);
 }
 
-.bgLetters {
-	height: 820px;
-	width: 1440px;
-}
 .centered {
 	border-top: 15px solid #aa8855;
 	padding-top: 20px;
