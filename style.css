@@ -57,7 +57,19 @@ h2 {
 
 @media (max-width: 800px) {
 	#centered {
-		display: flex;
-		justify-content: center;
+		padding-top: 100px;
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		height: 600px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+}
+@media (max-width: 550px) {
+	#centered {
+		width: 350px;
+		height: 600px;
 	}
 }
