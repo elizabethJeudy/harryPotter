@@ -54,3 +54,10 @@ h2 {
 .welcomeButton:hover {
 	background: var(--secondary-accent-color);
 }
+
+@media (max-width: 800px) {
+	#centered {
+		display: flex;
+		justify-content: center;
+	}
+}
