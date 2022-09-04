@@ -59,4 +59,7 @@ h2 {
 		display: block;
 		margin: 0 auto;
 	}
+	h2 {
+		text-align: center;
+	}
 }
