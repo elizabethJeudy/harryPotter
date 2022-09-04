@@ -27,7 +27,7 @@ h2 {
 	color: var(--secondary-color);
 }
 
-.centered {
+#centered {
 	border-top: 15px solid #aa8855;
 	padding-top: 20px;
 	box-sizing: content-box;
