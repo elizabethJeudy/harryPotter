@@ -1,0 +1,16 @@
+:root {
+	--primary-color: #ebe2d0;
+	--secondary-color: #0d141e;
+	--primary-accent-color: #aa8855;
+	--secondary-accent-color: #4a2a10;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1200px;
+	font-family: "Crimson Text", serif;
+}
