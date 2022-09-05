@@ -52,6 +52,7 @@ h2 {
 }
 
 .welcomeButton:hover {
+	transition: all 150ms ease-in-out;
 	background: var(--secondary-accent-color);
 }
 

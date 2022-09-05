@@ -14,3 +14,56 @@ body {
 	height: 1200px;
 	font-family: "Crimson Text", serif;
 }
+/* navigation */
+.bgLogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#navigationLinks {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	justify-content: space-evenly;
+}
+
+#navigationLinks a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+#navigationLinks a:hover {
+	color: var(--primary-accent-color);
+	text-decoration: underline;
+}
+
+.divider {
+	transform: rotate(180deg);
+}
+/* game */
+#question {
+	color: var(--primary-color);
+}
+.choice-container {
+	display: flex;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid rgba(86, 165, 235, 0.25);
+	background-color: #4a2a10a2;
+	color: var(--primary-color);
+	cursor: pointer;
+}
+
+.choice-container:hover {
+	transition: all 150ms ease-in-out;
+	opacity: 0.9;
+}
+.choice-prefix {
+	padding: 5px 10px;
+	background-color: #020202;
+}
+
+.choice-text {
+	padding: 5px;
+}
