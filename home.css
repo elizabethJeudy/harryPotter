@@ -29,6 +29,19 @@ p {
 	text-align: center;
 }
 
+footer {
+	padding-top: 15px;
+	color: var(--secondary-accent-color);
+}
+
+footer a {
+	color: var(--secondary-accent-color);
+}
+
+footer a:hover {
+	color: var(--primary-accent-color);
+}
+
 .bgLogo {
 	display: flex;
 	justify-content: center;
@@ -59,6 +72,10 @@ p {
 #characters {
 	display: flex;
 	padding-top: 30px;
+	box-sizing: content-box;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	width: fit-content;
+	height: fit-content;
 }
 
 #characters img {
@@ -71,7 +88,7 @@ p {
 	text-decoration: none;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 800px) {
 	#characters img {
 		display: block;
 		margin: 0 auto;
