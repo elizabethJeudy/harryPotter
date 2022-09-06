@@ -12,6 +12,19 @@ body {
 	font-family: "Crimson Text", serif;
 }
 
+footer {
+	padding-top: 15px;
+	color: var(--secondary-accent-color);
+}
+
+footer a {
+	color: var(--secondary-accent-color);
+}
+
+footer a:hover {
+	color: var(--primary-accent-color);
+}
+
 #navigationLinks {
 	display: flex;
 	justify-content: center;
