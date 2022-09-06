@@ -4,13 +4,50 @@
 	--primary-accent-color: #aa8855;
 	--secondary-accent-color: #4a2a10;
 }
-
+* {
+	box-sizing: border-box;
+}
 body {
 	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 1200px;
 	font-family: "Crimson Text", serif;
 }
+
+h2 {
+	color: var(--primary-color);
+	text-align: center;
+}
+
+h3 {
+	font-size: 50px;
+	color: #aa8855;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer {
+	padding-top: 15px;
+	color: var(--secondary-accent-color);
+}
+
+footer a {
+	color: var(--secondary-accent-color);
+}
+
+footer a:hover {
+	color: var(--primary-accent-color);
+}
+
+/* navigation */
+
+.bgLogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
 #navigationLinks {
 	display: flex;
 	justify-content: center;
@@ -26,12 +63,6 @@ body {
 #navigationLinks a:hover {
 	color: var(--primary-accent-color);
 	text-decoration: underline;
-}
-
-.bgLogo {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
 }
 
 .divider {
@@ -54,31 +85,59 @@ img {
 	padding-left: 30px;
 }
 
-.centered {
+/* quiz box */
+
+#centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.quizButton {
+.hidden {
+	display: none;
+}
+
+.quiz-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1020px;
 	background: var(--secondary-accent-color);
-	padding: 10px;
-	margin-top: 300px;
+	font-size: 20px;
 	border: none;
 	box-shadow: 2px 2px 5px #fff;
 	border-radius: 50px;
 	padding: 5px 20px 5px 20px;
 	opacity: 0.9;
-	color: var(--primary-color);
 	cursor: pointer;
 }
 
+.quiz-btn:hover {
+	transition: all 150ms ease-in-out;
+	background-color: var(--primary-accent-color);
+}
+
+.quiz-btn a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+/*
 .card-info {
 	display: none;
 	width: 540px;
 	background: var(--primary-color);
 	border-radius: 5px;
+}
+
+.card-info.activeInfo {
+	z-index: 5;
+	opacity: 1;
+	pointer-events: auto;
+	transform: translate(-50%, -50%) scale(1);
 }
 
 .card-info button {
@@ -95,6 +154,9 @@ img {
 	width: 540px;
 	background: var(--primary-color);
 	border-radius: 5px;
+	opacity: 0;
+	pointer-events: none;
+	transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-box button {
@@ -108,10 +170,46 @@ img {
 	cursor: pointer;
 }
 
+
 .option:hover {
 	background: #6a060859;
 	opacity: 0.9;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
+}
+
+styling for questions */
+
+@media (max-width: 800px) {
+	.centered {
+		display: block;
+		margin: 0 auto;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	.quiz-btn {
+		margin-top: 780px;
+	}
+}
+
+@media (max-width: 400px) {
+	h3 {
+		display: none;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 800px) {
+	img {
+		margin-top: 50px;
+	}
+	.quiz-btn {
+		margin-bottom: 650px;
+	}
 }
