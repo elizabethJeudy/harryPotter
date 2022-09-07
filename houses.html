@@ -20,8 +20,6 @@
 		<title>Houses</title>
 	</head>
 	<body>
-		<!--navigation-->
-
 		<nav>
 			<div id="banner">
 				<div class="bgLogo">
@@ -37,55 +35,100 @@
 				<a href="houses.html">Houses</a>
 				<img src="images/dot.svg" alt="brown diamond dot" />
 				<a href="quiz.html">Quiz</a>
-				<img src="images/divider.svg" alt="broom divider" />
+				<img src="images/divider.svg" alt="broom divider" class="divider" />
 			</div>
 		</nav>
-		<div class="container">
-			<h3>Discover Your House</h3>
-			<div id="bgHouses">
-				<div class="row">
-					<div class="col-md-6">
-						<img
-							src="images/gryffindor crest.png"
-							alt="red smokey background with gryffindor crest"
-							class="img-fluid"
-						/>
-						<h2>House of Gryffindor</h2>
+		<h3>Discover the Houses</h3>
+		<!--gryffindor card-->
+		<div class="row row-cols-2 justify-content-evenly">
+			<div class="col">
+				<div class="container">
+					<div class="card">
+						<div id="gryffindor" class="front-card"></div>
+						<div class="back-card">
+							<h2>Gryffindor</h2>
+							<p>
+								You are bold, passionate, and brave. You have a highly-defined
+								sense of right and wrong, and you are not afraid to speak your
+								mind or fight for what you want. Read more
+								<a href="https://harrypotter.fandom.com/wiki/Gryffindor">here</a
+								>.
+							</p>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<img
-							src="images/slytherin crest.png"
-							alt="green smokey background with slytherin crest"
-							class="img-fluid"
-						/>
-						<h2>House of Slytherin</h2>
-					</div>
-					<div class="container d-flex justify-content-center">
-						<img
-							src="images/hogwarts-crest-dark.png"
-							alt="hogwarts crest"
-							width="200"
-							class="hogwartsCrest"
-						/>
-					</div>
-					<div class="col-md-6 pb-3">
-						<img
-							src="images/hufflepuff crest.png"
-							alt="yellow smokey background with hufflepuff crest"
-							class="img-fluid"
-						/>
-						<h2>House of Hufflepuff</h2>
-					</div>
-					<div class="col-md-6 pb-3">
-						<img
-							src="images/ravenclaw crest.png"
-							alt="blue smokey background with ravenclaw crest"
-							class="img-fluid"
-						/>
-						<h2>House of Ravenclaw</h2>
+				</div>
+			</div>
+			<!--slytherin card-->
+			<div class="row row-cols-2 justify-content-center">
+				<div class="col">
+					<div class="container">
+						<div class="card">
+							<div id="slytherin" class="front-card"></div>
+							<div class="back-card">
+								<h2>Slytherin</h2>
+								<p>
+									You are sneaky, resoureful, and not afraid to bend the rules
+									to your advantage. You consistently strive to get ahead, and
+									will do everything you can to be in a position of power. Read
+									more
+									<a href="https://harrypotter.fandom.com/wiki/Slytherin"
+										>here</a
+									>.
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!--hufflepuff card-->
+		<div class="row row-cols-2 justify-content-center">
+			<div class="col">
+				<div class="container">
+					<div class="card">
+						<div id="hufflepuff" class="front-card"></div>
+						<div class="back-card">
+							<h2>Hufflepuff</h2>
+							<p>
+								You are reserved, rational, and down-to-earth. You work well
+								with others, are a great team player, and you always take a
+								stand against injustice. Read more
+								<a href="https://harrypotter.fandom.com/wiki/Hufflepuff">here</a
+								>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ravenclaw card-->
+			<div class="row row-cols-2 justify-content-center">
+				<div class="col">
+					<div class="container">
+						<div class="card">
+							<div id="ravenclaw" class="front-card"></div>
+							<div class="back-card">
+								<h2>Ravenclaw</h2>
+								<p>
+									You are wise, perceptive, and quietly brilliant. You may not
+									always be noticed right away, but you are widely respected for
+									your humor and brains. Read more
+									<a href="https://harrypotter.fandom.com/wiki/Ravenclaw"
+										>here</a
+									>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p class="text-center">
+				<a href="https://github.com/elizabethJeudy/harryPotter">
+					Coded by: Elizabeth Jeudy</a
+				>
+			</p>
+		</footer>
 	</body>
 </html>

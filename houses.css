@@ -4,7 +4,11 @@
 	--primary-accent-color: #aa8855;
 	--secondary-accent-color: #4a2a10;
 }
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
 	background-repeat: no-repeat;
@@ -19,13 +23,33 @@ h2 {
 
 h3 {
 	font-size: 50px;
-	color: var(--primary-accent-color);
+	color: #aa8855;
 	text-align: center;
 	margin-top: 40px;
 }
 
-.divider {
-	transform: rotate(180deg);
+p {
+	color: var(--primary-accent-color);
+	text-align: center;
+}
+
+footer {
+	padding-top: 15px;
+	color: var(--secondary-accent-color);
+}
+
+footer a {
+	color: var(--secondary-accent-color);
+}
+
+footer a:hover {
+	color: var(--primary-accent-color);
+}
+
+.bgLogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 #navigationLinks {
@@ -45,22 +69,75 @@ h3 {
 	text-decoration: underline;
 }
 
+.divider {
+	transform: rotate(180deg);
+}
+
 .bgLogo {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
 }
 
-#bgHouses .img-fluid {
-	display: block;
-	margin: 0 auto;
-	width: 300px;
-	height: 460px;
+.container {
+	padding-top: 20px;
+	width: 420px;
+	height: 500px;
+	perspective: 1000px;
 }
 
-@media (max-width: 768px) {
-	.hogwartsCrest {
-		display: none;
+.container:hover > .card {
+	cursor: pointer;
+	transform: rotateY(180deg);
+}
+
+.card {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transition: transform 1500ms;
+	transform-style: preserve-3d;
+}
+
+.front-card,
+.back-card {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+	backface-visibility: hidden;
+}
+
+.back-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.938);
+	transform: rotateY(180deg);
+}
+
+#gryffindor {
+	background-image: url(images/gryffindor.svg);
+}
+
+#slytherin {
+	background-image: url(images/slytherin.svg);
+}
+
+#hufflepuff {
+	background-image: url(images/hufflepuff.svg);
+}
+
+#ravenclaw {
+	background-image: url(images/ravenclaw.svg);
+}
+
+@media (max-width: 400px) {
+	.card {
+		width: 200px;
 	}
 	h3 {
 		font-size: 30px;
