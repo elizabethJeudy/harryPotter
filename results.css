@@ -1,0 +1,70 @@
+:root {
+	--primary-color: #ebe2d0;
+	--secondary-color: #0d141e;
+	--primary-accent-color: #aa8855;
+	--secondary-accent-color: #4a2a10;
+}
+
+body {
+	background-image: url("images/mobile_menu_gold_membership_bg_dark.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Crimson Text", serif;
+}
+
+h2 {
+	color: var(--primary-color);
+	text-align: center;
+}
+
+h3 {
+	font-size: 50px;
+	color: #aa8855;
+	text-align: center;
+	margin-top: 40px;
+}
+
+p {
+	color: var(--primary-accent-color);
+	text-align: center;
+}
+
+footer {
+	padding-top: 15px;
+	color: var(--secondary-accent-color);
+}
+
+footer a {
+	color: var(--secondary-accent-color);
+}
+
+footer a:hover {
+	color: var(--primary-accent-color);
+}
+
+.bgLogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#navigationLinks {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	justify-content: space-evenly;
+}
+
+#navigationLinks a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+#navigationLinks a:hover {
+	color: var(--primary-accent-color);
+	text-decoration: underline;
+}
+
+.divider {
+	transform: rotate(180deg);
+}
