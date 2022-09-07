@@ -125,61 +125,8 @@ img {
 	text-decoration: none;
 	color: var(--primary-color);
 }
-/*
-.card-info {
-	display: none;
-	width: 540px;
-	background: var(--primary-color);
-	border-radius: 5px;
-}
 
-.card-info.activeInfo {
-	z-index: 5;
-	opacity: 1;
-	pointer-events: auto;
-	transform: translate(-50%, -50%) scale(1);
-}
-
-.card-info button {
-	background: var(--primary-accent-color);
-	box-shadow: 2px 2px 5px #6a0607;
-	border: none;
-	border-radius: 50px;
-	margin: 10px;
-	padding: 5px 20px 5px 20px;
-	cursor: pointer;
-}
-
-.quiz-box {
-	width: 540px;
-	background: var(--primary-color);
-	border-radius: 5px;
-	opacity: 0;
-	pointer-events: none;
-	transform: translate(-50%, -50%) scale(0.9);
-}
-
-.quiz-box button {
-	background: var(--primary-accent-color);
-	box-shadow: 2px 2px 5px #6a0607;
-	border: none;
-	border-radius: 50px;
-	margin-top: 10px;
-	margin-left: 400px;
-	padding: 5px 20px 5px 20px;
-	cursor: pointer;
-}
-
-
-.option:hover {
-	background: #6a060859;
-	opacity: 0.9;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-}
-
-styling for questions */
+/*styling for questions */
 
 @media (max-width: 800px) {
 	.centered {
@@ -210,6 +157,6 @@ styling for questions */
 		margin-top: 50px;
 	}
 	.quiz-btn {
-		margin-bottom: 650px;
+		margin-bottom: 640px;
 	}
 }
