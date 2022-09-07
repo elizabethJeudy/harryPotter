@@ -21,6 +21,7 @@
 		<title>Discover your House Quiz - Play</title>
 	</head>
 	<body>
+		<!--navigation-->
 		<nav>
 			<div id="banner">
 				<div class="bgLogo">
@@ -39,28 +40,693 @@
 				<img src="images/divider.svg" alt="broom divider" class="divider" />
 			</div>
 		</nav>
+		<!--question/choices-->
 		<div class="container">
 			<div id="game" class="justify-center flex column">
+				<!--q1-->
 				<h2 id="question">
-					You are making a PowerPoint presentation for a class project.
+					You’ve made it to Hogwarts, which means you’ve already bought a wand
+					from Ollivander’s. What material is at its core?
 				</h2>
 				<div class="choice-container">
-					<p class="choice-prefix">A</p>
-					<p class="choice-text">Choice 1</p>
+					<input type="radio" id="wand1" name="wand" value="gryffindor" /><label
+						for="phoenix feather"
+						class="choice-text"
+						>Phoenix Feather</label
+					>
 				</div>
 				<div class="choice-container">
-					<p class="choice-prefix">B</p>
-					<p class="choice-text">Choice 2</p>
+					<input type="radio" id="wand2" name="wand" value="slytherin" /><label
+						for="dragon heartstring"
+						class="choice-text"
+						>Dragon Heartstring</label
+					>
 				</div>
 				<div class="choice-container">
-					<p class="choice-prefix">C</p>
-					<p class="choice-text">Choice 3</p>
+					<input
+						type="radio"
+						id="wand3"
+						name="wand"
+						value="hufflepuff"
+						value="ravenclaw"
+					/><label for="unicorn hair" class="choice-text">Unicorn Hair</label>
+				</div>
+				<!--q2-->
+				<h2 id="question">
+					During the end-of-year exams, you notice that one of your classmates
+					was using an enchanted quill. You come top of the class anyway, but
+					they are second. What do you do?
+				</h2>
+				<div class="choice-container">
+					<input type="radio" id="exam1" name="exam" value="hufflepuff" /><label
+						for="exam1"
+						class="choice-text"
+						>Tell the professor immediately – cheating is wrong, no matter
+						what.</label
+					>
 				</div>
 				<div class="choice-container">
-					<p class="choice-prefix">D</p>
-					<p class="choice-text">Choice 4</p>
+					<input type="radio" id="exam2" name="exam" value="ravenclaw" /><label
+						for="exam2"
+						class="choice-text"
+						>Nothing, but if I hadn't come top of the class, I'd definitely tell
+						the professor.</label
+					>
 				</div>
+				<div class="choice-container">
+					<input type="radio" id="exam3" name="exam" value="gryffindor" /><label
+						for="exam3"
+						class="choice-text"
+						>Encourage the other student to admit what they'd done to the
+						professor.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="exam4" name="exam" value="slytherin" /><label
+						for="exam4"
+						class="choice-text"
+						>Give them a high five for managing to sneak the quill into the
+						exam.</label
+					>
+				</div>
+				<!--q3-->
+				<h2 id="question">You would be most hurt if a person called you...</h2>
+				<div class="choice-container">
+					<input type="radio" id="hurt1" name="hurt" value="slytherin" /><label
+						for="hurt1"
+						class="choice-text"
+						>Weak.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="hurt2" name="hurt" value="ravenclaw" /><label
+						for="hurt2"
+						class="choice-text"
+						>Ignorant.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="hurt3" name="hurt" value="hufflepuff" /><label
+						for="hurt3"
+						class="choice-text"
+						>Unkind.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="hurt4" name="hurt" value="gryffindor" /><label
+						for="hurt4"
+						class="choice-text"
+						>Boring.</label
+					>
+				</div>
+				<!--q4-->
+				<h2 id="question">
+					You're locked in a duel with a skilled opponent. They fire an unknown
+					spell at you, and you shout…"
+				</h2>
+				<div class="choice-container">
+					<input type="radio" id="duel1" name="duel" value="gryffindor" /><label
+						for="hurt1"
+						class="choice-text"
+					>
+						Expelliarmus!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="duel2" name="duel" value="ravenclaw" /><label
+						for="hurt2"
+						class="choice-text"
+						>Protego!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="duel3" name="duel" value="hufflepuff" /><label
+						for="hurt3"
+						class="choice-text"
+						>Stupefy!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="duel4" name="duel" value="slytherin" /><label
+						for="hurt4"
+						class="choice-text"
+						>Crucio!</label
+					>
+				</div>
+				<!--q5-->
+				<h2 id="question">
+					It's your fifth year at Hogwarts, and you've just received a Howler
+					from your parents. What for?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="howler1"
+						name="howler"
+						value="gryffindor"
+					/><label for="howler1" class="choice-text"
+						>Sneaking into the Forbidden Forest at night on a dare.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="howler2"
+						name="howler"
+						value="slytherin"
+					/><label for="howler2" class="choice-text"
+						>Getting caught cheating in my Divination O.W.L.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="howler3"
+						name="howler"
+						value="ravenclaw"
+					/><label for="howler3" class="choice-text"
+						>Being put in detention after I was caught in the library after
+						hours.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="howler4"
+						name="howler"
+						value="hufflepuff"
+					/><label for="howler4" class="choice-text"
+						>Nothing! I'd never do anything to warrant a Howler.</label
+					>
+				</div>
+				<!--q6-->
+				<h2 id="question">
+					Which of these Dumbledore quotations speaks to you?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quote1"
+						name="quote"
+						value="hufflepuff"
+					/><label for="quote1" class="choice-text"
+						>"Pity the living, and above all, those who live without
+						love."</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quote2"
+						name="quote"
+						value="slytherin"
+					/><label for="quote2" class="choice-text"
+						>"Words are, in my not-so-humble opinion, our most inexhaustible
+						source of magic"</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quote3"
+						name="quote"
+						value="gryffindor"
+					/><label for="quote3" class="choice-text"
+						>"It matters not what someone is born, but what they grow to
+						be."</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quote4"
+						name="quote"
+						value="ravenclaw"
+					/><label for="quote4" class="choice-text"
+						>"It does not do to dwell on dreams and forget to live."</label
+					>
+				</div>
+				<!--q7-->
+				<h2 id="question">
+					Which of these most accurately describes your relationship with your
+					closest friends?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="friends1"
+						name="friends"
+						value="gryffindor"
+					/><label for="friends1" class="choice-text"
+						>I love surrounding myself with people – the more friends I have,
+						the better!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="friends2"
+						name="friends"
+						value="hufflepuff"
+					/><label for="friends2" class="choice-text"
+						>I have a few very close friends that I would trust with my
+						life.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="friends3"
+						name="friends"
+						value="ravenclaw"
+					/><label for="friends3" class="choice-text"
+						>I tend to be wary around new people, so I don't make new friends
+						often.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="friends4"
+						name="friends"
+						value="slytherin"
+					/><label for="friends4" class="choice-text"
+						>I find myself becoming friends with people who can help me to
+						succeed.</label
+					>
+				</div>
+				<!--q8-->
+				<h2 id="question">Which of your skills are you most proud of?</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="skills1"
+						name="skills"
+						value="ravenclaw"
+					/><label for="skills1" class="choice-text"
+						>My ability to absorb new information.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="skills2"
+						name="skills"
+						value="gryffindor"
+					/><label for="skills2" class="choice-text"
+						>My ability to make new friends.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="skills3"
+						name="skills"
+						value="slytherin"
+					/><label for="skills3" class="choice-text"
+						>My ability to get what I want.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="skills4"
+						name="skills"
+						value="hufflepuff"
+					/><label for="skills4" class="choice-text"
+						>My ability to keep secrets.</label
+					>
+				</div>
+				<!--q9-->
+				<h2 id="question">
+					The first Quidditch match of the season is approaching, and you can't
+					wait to get involved. What role are you playing.
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quidditch1"
+						name="quidditch"
+						value="gryffindor"
+					/><label for="quidditch1" class="choice-text"
+						>Seeker. I want the glory!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quidditch2"
+						name="quidditch"
+						value="hufflepuff"
+					/><label for="quidditch2" class="choice-text"
+						>Chaser. I like to be involved, and work as part of the team.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quidditch3"
+						name="quidditch"
+						value="slytherin"
+					/><label for="quidditch3" class="choice-text"
+						>Beater. I like having all that power.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="quidditch4"
+						name="quidditch"
+						value="ravenclaw"
+					/><label for="quidditch4" class="choice-text"
+						>I'll be in the crowd, making sure supporter morale is high!</label
+					>
+				</div>
+				<!--q10-->
+				<h2 id="question">
+					You're allowed a pet at Hogwarts: an owl, a cat, or a toad. Which do
+					you bring?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="animal1"
+						name="animal"
+						value="gryffindor"
+					/><label for="animal1" class="choice-text">Owl.</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="animal2"
+						name="animal"
+						value="ravenclaw"
+					/><label for="animal2" class="choice-text">Cat.</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="animal3"
+						name="animal"
+						value="hufflepuff"
+					/><label for="animal3" class="choice-text">Toad.</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="animal4"
+						name="animal"
+						value="slytherin"
+					/><label for="animal4" class="choice-text"
+						>Nothing! I can't be trusted to look after a pet!</label
+					>
+				</div>
+				<!--q11-->
+				<h2 id="question">
+					It's Saturday, you've finished your homework, and you have some free
+					time. You decide to spend some time away from your common room. Where
+					do you go?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="saturday1"
+						name="saturday"
+						value="gryffindor"
+					/><label for="saturday1" class="choice-text"
+						>The Forbidden Forest</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="saturday2"
+						name="saturday"
+						value="ravenclaw"
+					/><label for="saturday2" class="choice-text">The library</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="saturday3"
+						name="saturday"
+						value="hufflepuff"
+					/><label for="saturday3" class="choice-text">The kitchens</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="saturday4"
+						name="saturday"
+						value="slytherin"
+					/><label for="saturday4" class="choice-text"
+						>The Room of Requirement</label
+					>
+				</div>
+				<!--q12-->
+				<h2 id="question">What would you see in the Mirror of Erised?</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="erised1"
+						name="erised"
+						value="slytherin"
+					/><label for="erised1" class="choice-text"
+						>Myself, surrounded by riches.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="erised2"
+						name="erised"
+						value="hufflepuff"
+					/><label for="erised2" class="choice-text"
+						>Myself, surrounded by my loving family and friends.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="erised3"
+						name="erised"
+						value="ravenclaw"
+					/><label for="erised3" class="choice-text"
+						>Myself, knowledgable above all.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="erised4"
+						name="erised"
+						value="gryffindor"
+					/><label for="erised4" class="choice-text"
+						>Myself, experiencing a marvellous adventure.</label
+					>
+				</div>
+				<!--q13-->
+				<h2 id="question">
+					Which of these magical events would you most like to experience?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="events1"
+						name="events"
+						value="slytherin"
+					/><label for="events1" class="choice-text"
+						>The Triwizard Tournament</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="events2"
+						name="events"
+						value="gryffindor"
+					/><label for="events2" class="choice-text">
+						The Quidditch World Cup</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="events3"
+						name="events"
+						value="ravenclaw"
+					/><label for="events3" class="choice-text">The Yule Ball</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="events4"
+						name="events"
+						value="hufflepuff"
+					/><label for="events4" class="choice-text"
+						>Christmas at Hogwarts</label
+					>
+				</div>
+				<!--q14-->
+				<h2 id="question">
+					You're having trouble mastering a new spell, and you've decided to ask
+					for help. Who do you go to?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="spell1"
+						name="spell"
+						value="gryffindor"
+					/><label for="spell1" class="choice-text"
+						>My professor, of course.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="spell2"
+						name="spell"
+						value="hufflepuff"
+					/><label for="spell2" class="choice-text">My house ghost.</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="spell3"
+						name="spell"
+						value="slytherin"
+					/><label for="spell3" class="choice-text">My smartest friend.</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="spell4"
+						name="spell"
+						value="ravenclaw"
+					/><label for="spell4" class="choice-text"
+						>The library — I'll figure it out myself.</label
+					>
+				</div>
+				<!--q15-->
+				<h2 id="question">Choose a Deathly Hallow.</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="hallow1"
+						name="hallow"
+						value="slytherin"
+					/><label for="hallow1" class="choice-text">The Elder Wand</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="hallow2"
+						name="hallow"
+						value="hufflepuff"
+						value="ravenclaw"
+					/><label for="hallow2" class="choice-text"
+						>The Resurrection Stone</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="hallow3"
+						name="hallow"
+						value="slytherin"
+						value="hufflepuff"
+						value="gryffindor"
+					/><label for="hallow3" class="choice-text"
+						>The Cloak of Invisibility</label
+					>
+				</div>
+				<!--q16-->
+				<h2 id="question">
+					Which path do you intend to follow after leaving Hogwarts?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="path1"
+						name="path"
+						value="gryffindor"
+						value="ravenclaw"
+					/><label for="path1" class="choice-text"
+						>I'd join the Ministry – I want to make a difference in the
+						world.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="path2" name="path" value="gryffindor" /><label
+						for="path2"
+						class="choice-text"
+						>I think I'd travel for a while before committing to a
+						career.</label
+					>
+				</div>
+				<div class="choice-container">
+					<input type="radio" id="path3" name="path" value="hufflepuff" /><label
+						for="path3"
+						class="choice-text"
+						>I'd settle down and start a family as soon as possible!</label
+					>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="path4"
+						name="path"
+						value="ravenclaw"
+						value="slytherin"
+					/><label for="path4" class="choice-text"
+						>I'd continue to work hard in order to achieve as much success as
+						possible.</label
+					>
+				</div>
+				<!--q17-->
+				<h2 id="question">
+					And finally: We know that the Sorting Hat takes into account your
+					preferences. So which Hogwarts house do you feel you identify with
+					most closely?
+				</h2>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="house1"
+						name="house"
+						value="gryffindor"
+					/><label for="house1" class="choice-text">Gryffindor</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="house2"
+						name="house"
+						value="hufflepuff"
+					/><label for="house2" class="choice-text">Hufflepuff</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="house3"
+						name="house"
+						value="ravenclaw"
+					/><label for="house3" class="choice-text">Ravenclaw</label>
+				</div>
+				<div class="choice-container">
+					<input
+						type="radio"
+						id="house4"
+						name="house"
+						value="slytherin"
+					/><label for="house4" class="choice-text">Slytherin</label>
+				</div>
+
+				<!--submit button displays results-->
+				<button onclick="submit_quiz()">Submit</button>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
