@@ -178,16 +178,19 @@ function submit_quiz() {
 	} else if (q17 == "ravenclaw") {
 		ravenclaw += 1;
 	}
-
 	// displays score when submit is clicked
-	alert(
-		"gryffindor: " +
-			gryffindor +
-			"\nslytherin: " +
-			slytherin +
-			"\nhufflepuff: " +
-			hufflepuff +
-			"\nravenclaw: " +
-			ravenclaw
-	);
+	function userResults() {
+		alert(
+			"gryffindor: " +
+				gryffindor +
+				"\nslytherin: " +
+				slytherin +
+				"\nhufflepuff: " +
+				hufflepuff +
+				"\nravenclaw: " +
+				ravenclaw
+		);
+	}
+	let resultsCard = document.querySelector("#resultCard");
+	resultsCard.textContent = userResults;
 }

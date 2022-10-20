@@ -58,6 +58,8 @@ h2 {
 
 @media (max-width: 800px) {
 	#centered {
+		display: flex;
+		flex-direction: column;
 		padding-top: 100px;
 		display: block;
 		margin: 0 auto;
@@ -70,6 +72,7 @@ h2 {
 }
 @media (max-width: 550px) {
 	#centered {
+		display: flex;
 		width: 370px;
 		height: 600px;
 	}
