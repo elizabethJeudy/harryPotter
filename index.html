@@ -59,5 +59,17 @@
 				>
 			</div>
 		</div>
+
+		<script>
+			//asks for name at welcome page
+			let userInput = prompt(
+				"Welcome to the Wizarding World! Please use your name as the password to enter"
+			);
+			if (userInput != null) {
+				alert("You may enter!");
+			}
+			let userName = document.querySelector(".user-name");
+			userName.textContent = userInput;
+		</script>
 	</body>
 </html>
